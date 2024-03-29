@@ -1,0 +1,16 @@
+Food Ordering Application
+
+- Header
+    - Logo Component
+    - Nav Links Component
+- Body
+    - Search Component
+    - Restaurant Container
+        - Restaurant Card Component
+            - Img
+            - Restaurant name, Rating, Cuisine, Delivery Time
+- Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
