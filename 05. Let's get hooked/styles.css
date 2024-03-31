@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  /* margin: 0 20% 0 20%; */
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+.header .logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.header .nav-items ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 65px;
+  padding: 15px;
+}
+
+.header .nav-items ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .nav-items ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.body {
+}
+
+.res-card {
+  width: 200px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.res-card .res-details {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+.res-card .res-analytics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.res-card .res-analytics div {
+  width: max-content;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: darkgray;
+}
+
+.res-card img {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 5px;
+}
+
+.top-rated-btn,
+.reset-btn {
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
